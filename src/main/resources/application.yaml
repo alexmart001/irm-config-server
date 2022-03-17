@@ -1,0 +1,14 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: irm-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/alexmart001/irm-config-server-conf
+          timeout: 5
+          default-label: main
+          username: ${GITHUB_USER}
+          password: ${GITHUB_PASS}
