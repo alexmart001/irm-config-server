@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>br.eti.alexandremartins</groupId>
 	<artifactId>irm-config-server</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<name>irm-config-server</name>
 	<description>IRM - Server Configuration NEW</description>
 	<properties>
